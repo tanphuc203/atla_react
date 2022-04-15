@@ -19,18 +19,20 @@ const Wrongpass =()=>{
                         <div className={classes.password}>Mật khẩu * </div>
                         <input type="password"  className={classes.title} name="" placeholder="******"/>
                         <img src={pic7}  alt='eye'className={classes.eye}  ></img>
-                        <Link to="/wrong/forgot">
+                        
                         
                         <div className={classes.wrongpass}>
                             <img src={warning} alt="warning" className={classes.warning}></img>
                            <p className={classes.wrongpasstitle}>Sai mật khẩu hoặc tên đăng nhập </p> 
                             </div>
-                        </Link>
+                        
                     </div>
                         <div className={classes.sumit} > 
                             <p className={classes.log__in} >Đăng nhập</p>
                         </div>
-                    <div className={classes.pass}>Quên mật khẩu? </div>
+                        <Link to="/wrong/forgot">
+                            <div className={classes.pass}>Quên mật khẩu? </div>
+                        </Link>
             </div>
             <div className={classes.right}>
                     <img src={pic5} alt='pic5' className={classes.pic5}></img>

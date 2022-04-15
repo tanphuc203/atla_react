@@ -125,9 +125,11 @@ function Adddevice(){
                                 <div className={classes.canneltitle}>Hủy bỏ  </div>
                             </div>
                             </Link>
+                            <Link to="/device">
                             <div className={classes.more}>
                                 <div className={classes.moretitle}>Thêm  </div>
                             </div>
+                            </Link>
                         </div>
                     </div>
 

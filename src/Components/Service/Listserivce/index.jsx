@@ -123,9 +123,11 @@ function Listserivce(){
                     <div className={classes.contaniner__cancel}>
                     <Link to="/service"><button>Hủy bỏ</button></Link>
                     </div>
-                    <div className={classes.contaniner__addservice}>
-                        <button>Thêm dịch vụ</button>
-                    </div>
+                    <Link to="/service">
+                        <div className={classes.contaniner__addservice}>
+                            <button>Thêm dịch vụ</button>
+                        </div>
+                    </Link>
                 </div>
             </div>
                 

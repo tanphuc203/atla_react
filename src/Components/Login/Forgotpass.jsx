@@ -16,9 +16,10 @@ const Forgotpass =()=>{
                     </div>
                     
                     <input type="text" className={classes.title} name="" placeholder=" "/>
-                        <div className={classes.sumitleft} >
+                        <Link to="/"><div className={classes.sumitleft} >
                             <p className={classes.cancel} >Hủy</p>
                         </div>
+                        </Link>
                         <Link to ="/wrong/forgot/reset">
                         <div className={classes.sumitright}> 
                         <p className={classes.next} >tiếp tục </p>

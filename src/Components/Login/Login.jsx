@@ -17,7 +17,9 @@ const Login =()=>{
                         <div className={classes.password}>Mật khẩu * </div>
                         <input type="password"  className={classes.title} name="" placeholder="****"/>
                         <img src={pic7}  alt='eye'className={classes.eye}  ></img>
-                        <div className={classes.password1}>Quên mật khẩu? </div>
+                        <Link to="/wrong/forgot">
+                            <div className={classes.password1}>Quên mật khẩu? </div>
+                        </Link>
                         
                     </div>
                     <Link to="/wrong">

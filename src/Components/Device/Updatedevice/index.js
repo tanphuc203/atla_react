@@ -169,13 +169,15 @@ function Updatedevice(){
 
                         <div className={classes.userbutton}>
                             <Link to ='/device'>
-                            <div className={classes.cannel}>
-                                <div className={classes.canneltitle}>Hủy bỏ  </div>
-                            </div>
+                                <div className={classes.cannel}>
+                                    <div className={classes.canneltitle}>Hủy bỏ  </div>
+                                </div>
                             </Link>
-                            <div className={classes.more}>
-                                <div className={classes.moretitle}>Thêm  </div>
-                            </div>
+                            <Link to="/device">
+                                <div className={classes.more}>
+                                    <div className={classes.moretitle}>Thêm  </div>
+                                </div>
+                            </Link>
                         </div>
                     </div>
 
