@@ -22,16 +22,10 @@ const Account=()=>{
             <div className={classes.right}>   
                 <div className={classes.top}>
                     <span className={classes.personal}>Thông tin cá nhân</span>
-                    <div className={classes.topright}>
-                     
-                            <Bellactive/>
-                    
-                     
-                     
-                    </div>
-                   
+                    <div className={classes.topright}>                    
+                            <Bellactive/>                                                           
+                    </div>                
                 </div>
-
                 <div className={classes.bottom}>
            
                      <div className={classes.bottomleft}>

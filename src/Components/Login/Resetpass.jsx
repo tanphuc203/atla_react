@@ -19,7 +19,7 @@ const Login =()=>{
                         <img src={eyeclose}  alt='eyeclose'className={classes.eyeclose}  ></img>
                         
                         <div className={classes.password}>Nhập lại mật khẩu  </div>
-                        <input type="password"  className={classes.title} name="" placeholder="****"/>
+                        <input type="password"  className={classes.title} name="" placeholder="*****"/>
                         <img src={eyeclose}  alt='eyeclose'className={classes.eyeclosepass}  ></img>
                         
                         
